@@ -61,9 +61,20 @@ console.log(a >= c);
 console.log(a <= c);
 
 // Write a program that uses logical and assignment operators.
-const num1=1;
-const num2=3;
-const num3=5;
-const num4=6;
- console.log(num1>num2 && num3<num4);
 
+/* pseduocode of the program
+1. get english marks
+2.get maths marks
+3.get science marks
+4.is student pass in english or not.
+5.is student pass in maths or not.
+is student pass in science or not.
+6.is student pass in exam or not.
+*/
+const passingMarks = 35;
+
+function checkMarks(){
+    let englishMarks=parseInt(document.querySelector('#english').value);
+    let mathsMarks=parseInt(document.querySelector('#maths').value);
+    let scienceMarks=parseInt(document.querySelector('#science').value);
+}
