@@ -39,3 +39,7 @@ if (num1>num2) {
   let c= a+b;
   console.log('The sum of ' + a + ' and ' + b + ' is: ' + c);
 
+// Write a program that takes two variables and prints the sum of it.
+let x=12;
+let y=20;
+console.log(x+y);
