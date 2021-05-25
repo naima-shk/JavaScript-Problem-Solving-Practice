@@ -61,5 +61,9 @@ console.log(a >= c);
 console.log(a <= c);
 
 // Write a program that uses logical and assignment operators.
- console.log(1>3 && 5<6);
+const num1=1;
+const num2=3;
+const num3=5;
+const num4=6;
+ console.log(num1>num2 && num3<num4);
 
