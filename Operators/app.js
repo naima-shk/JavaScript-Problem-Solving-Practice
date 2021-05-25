@@ -63,5 +63,3 @@ console.log(a <= c);
 // Write a program that uses logical and assignment operators.
  console.log(1>3 && 5<6);
 
- // Write a program that converts degree to fahrenheit and fahrenheit to degrees.
- 
