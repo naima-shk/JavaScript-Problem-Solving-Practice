@@ -68,7 +68,6 @@ console.log(a <= c);
 3.get science marks
 4.is student pass in english or not.
 5.is student pass in maths or not.
-is student pass in science or not.
 6.is student pass in exam or not.
 */
 const passingMarks = 35;
@@ -76,5 +75,10 @@ const passingMarks = 35;
 function checkMarks(){
     let englishMarks=parseInt(document.querySelector('#english').value);
     let mathsMarks=parseInt(document.querySelector('#maths').value);
-    let scienceMarks=parseInt(document.querySelector('#science').value);
+    
+    let englishPass = englishMarks >= passingMarks;
+    let mathsPass = mathsMarks >= passingMarks;
+    let examPass = englishPass && mathsPass;
+    alert (examPass);
+
 }
