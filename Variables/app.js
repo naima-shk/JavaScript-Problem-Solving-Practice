@@ -1,5 +1,4 @@
 //Variables
-//function myCash(){
 
 //numbers
 let cash= 500;
