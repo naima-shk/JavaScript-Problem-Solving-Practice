@@ -1,0 +1,1 @@
+document.querySelector('.first').style.color = 'green';
