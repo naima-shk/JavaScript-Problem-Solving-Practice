@@ -5,6 +5,10 @@
 
 */
 let cityName='Tokyo';
-//et b= cityName.length
+let b= cityName.length
 let c= cityName.indexOf('k',1);
 console.log(c);
+
+let cityName='Tokyo';
+  let  n = cityName.search("o");
+  console.log(n);
