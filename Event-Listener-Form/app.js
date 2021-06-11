@@ -4,6 +4,8 @@ let login = document
 let email = document.getElementById("email");
 let password = document.getElementById("password");
 
+
+let pattern = new RegExp(pattern,email);
 alert("form submitted");
 let emailValue = email.value;
 let passwordValue = password.value;
