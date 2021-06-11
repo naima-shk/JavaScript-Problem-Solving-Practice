@@ -1,28 +1,19 @@
-let login = document
-  .getElementById("login")
-  .addEventListener("submit", submitFunction, true);
-let email = document.getElementById("email");
-let password = document.getElementById("password");
-
-
-let pattern = new RegExp(pattern,email);
-alert("form submitted");
-let emailValue = email.value;
-let passwordValue = password.value;
-function submitFunction() {
-  if (emailValue === "") {
-    alert("Email cannot be blank");
-  } else if (!emailValue(email)) {
-    alert("Not a valid email");
+function validation(){
+  let email= document.getElementById('email').value;
+  if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)
+  {
+    alert("You have entered a valid email address!")
   } else {
-    alert("email is valid");
-  }
-
-  if (passwordValue.length <= 8) {
-    alert("Password cannot be blank");
-  } else {
-    alert("password is filled")
-  }
-  alert("login succesfully");
+    
+    alert("You have entered an invalid email address!")
+  
 }
 
+  let password= document.getElementById('password').value;
+  if (/^[A-Za-z]\w{7,14}$/){
+    alert(' you have entered  a valid password')
+  } else{
+    alert ('you have entered  an  invalid password')
+  }
+ 
+}
